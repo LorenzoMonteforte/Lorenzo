@@ -1,0 +1,60 @@
+/* generale */
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url("immagini/background.jpg");
+    background-size: cover;
+}
+header > img, header > h1, nav > div, section > h2, section > div{
+    margin-bottom: 5px;
+}
+/* contenitore */
+body > div{
+    width: 60%;
+    background-color: rgb(0, 0, 0, 0.5);
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+/* header */
+header > img{
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+header > h1{
+    text-align: center;
+    color: rgba(0,221,0,255);
+}
+/* nav */
+nav > div{
+    width: 100%;
+    background-color: rgba(0,221,0,255);
+    text-align: center;
+    padding: 10px;
+}
+/* main */
+main{
+    color: white;
+}
+section > div:last-child{
+    height: 30px;
+    border-radius: 5px;
+}
+#carica1{
+    width: 55%;
+    background-color: rgba(245,180,83,255);
+}
+#carica2{
+    width: 70%;
+    background-color: rgba(0,221,0,255);
+}
+#carica3{
+    width: 25%;
+    background-color: rgba(190,65,65,255);
+}
